@@ -1,14 +1,68 @@
 
-20231018 
+20240805
 
-Need to include start and end dates from both SamplingPeriod and SamplingEvent tables.
-The values are different
+left off....
+
+redo the measured discharge and still need to do the gauage discharge
+
+then check again for stuff not done...
+
+completed scripts...
+    location_details
+    measured_discharge
+    periods_events
+    reach-coordinates
+    riffle_cover_class
+    riffle_water_quality
+    taxa_info    
 
 
-From Hope...
+20240801
 
-We are finished with the HTLNAqVeg1.2.7  and the HTLNFish4.5.2 databases for FY23. 
-Check back with us on the HTLNInvert DB in February. We may still be processing 
-samples from BUFF 2023.
+finished  measured_discharge.csv
 
+
+20240731
+
+conda install -y seaborn
+
+
+20240730
+
+Left off loading packages for aqinvert-datapkg
+
+Start with .py scripts for QCing individual .csv files
+
+Current data package is based on HTLNInvert3.7.4.
+
+conda create -y -n aqinvert-datapkg python=3.10
+
+conda activate aqinvert-datapkg
+
+conda install -y pandas jupyter matplotlib
+
+cd c:\Users\GRowell\HTLN-data-packages
+
+
+
+
+-------------------------
+
+Source tables:
+
+x tbl_Count
+x tbl_DischardDetail
+x tbl_DischargeGauge
+x tbl_Locations
+x tbl_RiffleData
+x tbl_RiffleSamples
+x tbl_SamplingEvents
+x tbl_SamplingPeriods
+x tbl_Squares
+x tlu_FunctionalFeedingGroup
+x tlu_GaugeStations
+x tlu_RiffleCoverClass <- export separately
+x tlu_Taxa
+x tlu_WentworthSubstrateCodes
+x xtab_tluTaxa_FunctionalFeedingGroup
 

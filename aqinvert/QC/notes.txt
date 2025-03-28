@@ -1,3 +1,0 @@
-Use this folder for quality control scripts
-These will eventually go to the DDR reports
-
